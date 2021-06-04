@@ -127,32 +127,32 @@ Once you have gained authorization for your project you will be able to see the 
 
 
 <center>
-![](files/twitterdev2.png){width=80%}
+![](files/twitterdev2.png)
 </center>
 
 
 Here you will see your new project, and the name you gave it, appear on the left hand side. Once you have associated an App with this project, it will also appear below the name of the project. Here, I have several Apps authorized to query the basic API. I have one App, named "gencap", that is associated with my Academic Research Product Track project. 
 
 <center>
-![](files/twitterdev3.png){width=80%}
+![](files/twitterdev3.png)
 </center>
 
 When you click on the project, you will first see how much of your monthly cap of 10m tweets you have spent. You will also see the App associated with your project below the monthly tweet cap usage information.
 
 <center>
-![](files/twitterdev4.png){width=80%}
+![](files/twitterdev4.png)
 </center>
 
 By clicking on the Settings icons for the App, you will be taken through to the information about the App associated with the project. Here, you will see two options listed, for "Settings" and "Keys and Tokens."
 
 <center>
-![](files/twitterdev5.png){width=80%}
+![](files/twitterdev5.png)
 </center>
 
 Beside the panel for Bearer Token, you will see an option to Regenerate the token. You can do this if you have not stored the information about the token and no longer have access to it. It is important to store information on the Bearer Token to avoid having to continually regenerate the Bearer Token information.
 
 <center>
-![](files/twitterdev6.png){width=80%}
+![](files/twitterdev6.png)
 </center>
 
 Once you have the Bearer Token, you are ready to use `academictwitteR`!
