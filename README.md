@@ -1,7 +1,7 @@
 # Introduction-to-Computational-Text-Analysis-and-Social-Media-Research-using-R
 An inter-semester course for Sciences Po, School of Research
 
-# Installation Instructions
+# Setup Instructions
 ## Install R and RStudio
 
 R and RStudio are two separate pieces of software: 
@@ -81,11 +81,9 @@ but if you wish to do so you can
   
 [Credits](https://datacarpentry.org/R-ecology-lesson/#Install_R_and_RStudio)
 
-# Authorization for Twitter Academic Research Product Track
+## Authorization for Twitter Academic Research Product Track
 
-In order to use the Twitter Academic Research Product Track you will first need to obtain an authorization token. You will find details about the process of obtaining authorization [here](https://developer.twitter.com/en/products/twitter-api/academic-research). 
-
-**In order to gain authorization you first need a Twitter account.**
+In order to use the Twitter Academic Research Product Track you will first need to obtain an authorization token. You will find details about the process of obtaining authorization [here](https://developer.twitter.com/en/products/twitter-api/academic-research). Press the "Apply →" button under the Basic tier to start the application process (you need to have a Twitter account).
 
 First, Twitter will ask for details about your academic profile. Per the documentation linked above, they will ask for the following:
 
@@ -123,36 +121,25 @@ Twitter will then ask for details of the proposed research project. Here, questi
 >
 > 8. Will your analysis make Twitter content or derived information available to a government entity?
 
-Once you have gained authorization for your project you will be able to see the new project on your Twitter developer portal. First click on the developer portal as below. 
+Once you have gained authorization for your project you will be able to see the new project on your Twitter developer portal (this could take a few days). 
 
-
-<center>
+First click on the developer portal as below. 
 ![](files/twitterdev2.png)
-</center>
-
 
 Here you will see your new project, and the name you gave it, appear on the left hand side. Once you have associated an App with this project, it will also appear below the name of the project. Here, I have several Apps authorized to query the basic API. I have one App, named "gencap", that is associated with my Academic Research Product Track project. 
-
-<center>
 ![](files/twitterdev3.png)
-</center>
 
 When you click on the project, you will first see how much of your monthly cap of 10m tweets you have spent. You will also see the App associated with your project below the monthly tweet cap usage information.
-
-<center>
 ![](files/twitterdev4.png)
-</center>
 
 By clicking on the Settings icons for the App, you will be taken through to the information about the App associated with the project. Here, you will see two options listed, for "Settings" and "Keys and Tokens."
-
-<center>
 ![](files/twitterdev5.png)
-</center>
+
 
 Beside the panel for Bearer Token, you will see an option to Regenerate the token. You can do this if you have not stored the information about the token and no longer have access to it. It is important to store information on the Bearer Token to avoid having to continually regenerate the Bearer Token information.
+![](http://files/twitterdev6.png)
 
-<center>
-![](files/twitterdev6.png)
-</center>
+Once you have the Bearer Token, you are ready to go!
 
-Once you have the Bearer Token, you are ready to use `academictwitteR`!
+[Credits](https://cran.r-project.org/package=academictwitteR)
+
