@@ -1,9 +1,11 @@
 # Introduction-to-Computational-Text-Analysis-and-Social-Media-Research-using-R
 An inter-semester course for Sciences Po, School of Research
 
-# Setup Instructions
+## Setup Instructions
 
-## Authorization for Twitter Academic Research Product Track
+To fully particpate in the course, there are three things you need to do: 1. obtain Authorization for Twitter Academic Research Product Track, 2. install R and R Studio, and 3. install Facepager. See below for the detailed instructions.
+
+### 1. Authorization for Twitter Academic Research Product Track
 
 In order to use the course material to fetch data from TWitter, you will first need to obtain an authorization token from the Twitter Academic Research Product Track. You will find details about the process of obtaining authorization [here](https://developer.twitter.com/en/products/twitter-api/academic-research). Press `Apply →` under the Basic tier to start the application process (you need to have a Twitter account). 
 
@@ -45,27 +47,31 @@ Twitter will then ask for details of the proposed research project. Here, questi
 
 Once you have gained authorization for your project you will be able to see the new project on your Twitter developer portal (this could take a few days). 
 
-First click on the developer portal as below. 
-![](files/twitterdev2.png)
+First click on the developer portal as below.
+
+<img src="files/twitterdev2.png" width="60%">
 
 Here you will see your new project, and the name you gave it, appear on the left hand side. Once you have associated an App with this project, it will also appear below the name of the project. Here, I have several Apps authorized to query the basic API. I have one App, named "gencap", that is associated with my Academic Research Product Track project. 
-![](files/twitterdev3.png)
+
+<img src="files/twitterdev3.png" width="60%">
 
 When you click on the project, you will first see how much of your monthly cap of 10m tweets you have spent. You will also see the App associated with your project below the monthly tweet cap usage information.
-![](files/twitterdev4.png)
+
+<img src="files/twitterdev4.png" width="60%">
 
 By clicking on the Settings icons for the App, you will be taken through to the information about the App associated with the project. Here, you will see two options listed, for "Settings" and "Keys and Tokens."
-![](files/twitterdev5.png)
 
+<img src="files/twitterdev5.png" width="60%">
 
 Beside the panel for Bearer Token, you will see an option to Regenerate the token. You can do this if you have not stored the information about the token and no longer have access to it. It is important to store information on the Bearer Token to avoid having to continually regenerate the Bearer Token information.
-![](http://files/twitterdev6.png)
+
+<img src="files/twitterdev6.png" width="60%">
 
 Once you have the Bearer Token, you are ready to go!
 
 [Credits](https://cran.r-project.org/package=academictwitteR)
 
-## Install R and RStudio
+### 2. Install R and RStudio
 
 R and RStudio are two separate pieces of software: 
 
@@ -77,7 +83,7 @@ R and RStudio are two separate pieces of software:
 If you don't already have R and RStudio installed, follow the instructions for 
 your operating system below. You have to install R before you install RStudio. 
 
-### Windows
+#### Windows
 
 * Download R from the 
   [CRAN website](https://cran.r-project.org/bin/windows/base/release.htm).
@@ -89,7 +95,7 @@ your operating system below. You have to install R before you install RStudio.
 * Once it's installed, open RStudio to make sure it works and you don't get any
   error messages.
 
-### MacOS
+#### MacOS
 
 * Download R from
   the [CRAN website](https://cran.r-project.org/bin/macosx/).
@@ -104,7 +110,7 @@ your operating system below. You have to install R before you install RStudio.
 * Once it's installed, open RStudio to make sure it works and you don't get any
   error messages.
 
-### Linux
+#### Linux
 
 * Follow the instructions for your distribution
   from [CRAN](https://cloud.r-project.org/bin/linux), they provide information
@@ -121,7 +127,7 @@ your operating system below. You have to install R before you install RStudio.
 * Once it's installed, open RStudio to make sure it works and you don't get any
   error messages.
 
-### Update R and RStudio
+#### Update R and RStudio
 
 If you already have R and RStudio installed, check if your R and RStudio are 
 up to date:
@@ -143,3 +149,8 @@ but if you wish to do so you can
 [check here.](https://cran.r-project.org/bin/windows/base/rw-FAQ.html#How-do-I-UNinstall-R_003f) 
   
 [Credits](https://datacarpentry.org/R-ecology-lesson/#Install_R_and_RStudio)
+
+### 3. Install Facepager
+We will also use Facepager to download Facebook data. You could download the software [here](https://github.com/strohne/Facepager/releases/tag/v4.3.10). Version 4.3.10 will be used for demonstration.
+
+
