@@ -1,6 +1,29 @@
 # Introduction-to-Computational-Text-Analysis-and-Social-Media-Research-using-R
 An inter-semester course for Sciences Po, School of Research
 
+## Course description 
+As a result of the advert of the internet and advancement in information technology, massive volume of text on a wide variety of topics has become available. These include not only contents on social media and websites, but also digitized content of government documents, newspapers, books, and other historical sources. At the same time, computational text analysis methods are increasingly being used to conduct social and political research.
+
+The course is perfect for researchers who are interested in utilising textual data but lack the technical knowledge. In this course, you will develop the foundation skills needed for collecting and analysing textual data from digital sources. The course begins with an introduction to fundamental R programming for absolute beginners. After acquiring the necessary skills in R, we will then moves on to harvesting data from online sources. The course will conclude will an introduction to analysing textual data using computational techniques. These techniques can be used to analyse texts from a wide range of digital sources, including website content, digitised books and documents, party manifestos, political speeches, and so on. By the end of the course, students will have the skills and resources to apply computational methods to address scholarly problems in social and political sciences. 
+
+## Prerequisites 
+You need no prior knowledge of R. While it would be beneficial to have some experience in coding (eg STATA), those without any prior experience will still be able to participate effectively. The course will be taught using R. You are required to download and install both R and RStudio before the workshop.
+
+Students who are proficient in R could consider skipping Day 1 and Day 2. 
+
+## Course objectives 
+The course aims to equip students with the key technical skills to conducting social media research with a focus on analysing textual data. By the end of the course, it is expected that the students will be able to : 
+
+* Write basic programme in R 
+* Harvest social media data using tools that employ APIs. 
+* Read and write digital text files. 
+* Analyze textual data using computational text analysis techniques. 
+
+## Course structure
+The course is divided in three blocks. The first block (Day 1 and Day 2) focuses on the fundamental skills of R programming, such as importing data into R, data wrangling, calculating summary statistics, and creating publication-quality graphics. The second block (Day 3) covers various ways to collect data from social media and other digital sources, with a major focus on Facebook and Twitter. The third block (Day 4 and Day 5) turns to Computational Text Analysis techniques. By the end of the course, students will have the skills and resources to apply these methods to answer scholarly problems in social and political sciences.
+
+The course is designed with a hands-on approach. Each class will consist of a lecture component where key concepts will be introduced, and the main component will be live demonstration and practice exercises. The exercises are designed in a way that is accessible to people with no programming experience. The course also has a practical emphasis, each class will be focusing on applying the specific techniques to solve realistic tasks in social research.
+
 ## Setup Instructions
 
 To fully particpate in the course, there are three things you need to do: 1. obtain Authorization for Twitter Academic Research Product Track, 2. install R and R Studio, and 3. install Facepager. See below for the detailed instructions.
