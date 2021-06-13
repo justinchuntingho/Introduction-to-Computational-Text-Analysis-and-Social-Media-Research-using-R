@@ -151,7 +151,6 @@ scotelection %>%
 # Tips: Attach the lubridate library using 'library(lubridate)' and
 # use the following code: mutate(month = month(datetime))
 ############################## 
-scotelection %>% mutate(month = month(datetime)) %>% group_by(month) %>% summarise(max(likes))
 
 ####################################################################################
 ## Data visualisation with ggplot2                                                ##
@@ -251,28 +250,28 @@ ggplot(data = scotelection, aes(x = comments, y = likes)) +
 ggplot(data = scotelection, aes(x = comments, y = likes)) +
   geom_point(color = "red")
 
-# Or coloring them by post type
+# Or coloring them by party
 ggplot(data = scotelection, aes(x = comments, y = likes)) +
-  geom_point(aes(color = type)) 
+  geom_point(aes(color = snsname)) 
 
 # There are many things you can do by adding layers into the ggplot
 # You could log them.
 # PS: You will see a warning message, don't worry, it is just because our data contain zeros
-ggplot(data = scotelection, aes(x = comments, y = likes, color = type)) +
+ggplot(data = scotelection, aes(x = comments, y = likes, color = snsname)) +
   geom_point(alpha = 0.5) + # I made the points transparent for visiblity
   scale_x_log10() +
   scale_y_log10()
 
 
 # Or fit a line
-ggplot(data = scotelection, aes(x = comments, y = likes, color = type)) +
+ggplot(data = scotelection, aes(x = comments, y = likes, color = snsname)) +
   geom_point(alpha = 0.5) +
   scale_x_log10() +
   scale_y_log10() +
   geom_smooth(method = "lm", se = FALSE)
 
 # And add labels and legend
-ggplot(data = scotelection, aes(x = comments, y = likes, color = type)) +
+ggplot(data = scotelection, aes(x = comments, y = likes, color = snsname)) +
   geom_point(alpha = 0.5) +
   scale_x_log10() +
   scale_y_log10() +
@@ -282,7 +281,7 @@ ggplot(data = scotelection, aes(x = comments, y = likes, color = type)) +
        subtitle = "One post per dot")
 
 # Change the theme by adding theme_bw()
-ggplot(data = scotelection, aes(x = comments, y = likes, color = type)) +
+ggplot(data = scotelection, aes(x = comments, y = likes, color = snsname)) +
   geom_point(alpha = 0.5) +
   scale_x_log10() +
   scale_y_log10() +
@@ -293,7 +292,7 @@ ggplot(data = scotelection, aes(x = comments, y = likes, color = type)) +
   theme_bw()
 
 # To save your graph, you could first define the graph as an object then use ggsave:
-myplot <- ggplot(data = scotelection, aes(x = comments, y = likes, color = type)) +
+myplot <- ggplot(data = scotelection, aes(x = comments, y = likes, color = snsname)) +
   geom_point(alpha = 0.5) +
   scale_x_log10() +
   scale_y_log10() +
