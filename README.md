@@ -24,6 +24,10 @@ The course is divided in three blocks. The first block (Day 1 and Day 2) focuses
 
 The course is designed with a hands-on approach. Each class will consist of a lecture component where key concepts will be introduced, and the main component will be live demonstration and practice exercises. The exercises are designed in a way that is accessible to people with no programming experience. The course also has a practical emphasis, each class will be focusing on applying the specific techniques to solve realistic tasks in social research.
 
+## Course Materials
+In this repositary, you will find four R scripts (`1_intro_to_r.R`, `2_data_wrangling_and_vis.R`, `3_academicTwitteR.R`, and `4_text_analysis.R`) and a csv file (`scotelection2021.csv`). Slides are available at: https://justinchuntingho.github.io/SciPoCTA-slides/
+
+
 ## Setup Instructions
 
 To fully particpate in the course, there are three things you need to do: 1. obtain Authorization for Twitter Academic Research Product Track, 2. install R and R Studio, and 3. install Facepager. See below for the detailed instructions.
